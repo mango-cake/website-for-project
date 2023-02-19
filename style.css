@@ -1,0 +1,173 @@
+body {
+  background-color:#f69966;
+
+  font-family: 'Shantell Sans';
+  color: #fb772f;
+}
+
+@font-face {
+  font-family: 'Shantell Sans';
+  src:  url('./resources/fonts/Caveat/Shantell Sans-Regular.ttf') format('truetype');
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: bg-animation 2s infinite;
+}
+
+@-webkit-keyframes bg-animation {
+  0% {
+    background-color: #FFC971;
+  }
+  7% {
+    background-color: #FFB627;
+  }
+  13% {
+    background-color: #FF9505;
+  }
+  20% {
+    background-color: #E2711D;
+  }
+  26% {
+    background-color: #CC5803;
+  }
+  33% {
+    background-color: #E2711D;
+  }
+  39% {
+    background-color: #FF9505;
+  }
+  46% {
+    background-color: #FFB627;
+  }
+  52% {
+    background-color: #FFC971;
+  }
+  59% {
+    background-color: #FFB627;
+  }
+  65% {
+    background-color: #FF9505;
+  }
+  72% {
+    background-color: #E2711D;
+  }
+  79% {
+    background-color: #CC5803;
+  }
+  85% {
+    background-color: #E2711D;
+  }
+  100% {
+    background-color: #FF9505;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-color: #FFC971;
+  }
+  7% {
+    background-color: #FFB627;
+  }
+  13% {
+    background-color: #FF9505;
+  }
+  20% {
+    background-color: #E2711D;
+  }
+  26% {
+    background-color: #CC5803;
+  }
+  33% {
+    background-color: #E2711D;
+  }
+  39% {
+    background-color: #FF9505;
+  }
+  46% {
+    background-color: #FFB627;
+  }
+  52% {
+    background-color: #FFC971;
+  }
+  59% {
+    background-color: #FFB627;
+  }
+  65% {
+    background-color: #FF9505;
+  }
+  72% {
+    background-color: #E2711D;
+  }
+  79% {
+    background-color: #CC5803;
+  }
+  85% {
+    background-color: #E2711D;
+  }
+  100% {
+    background-color: #FF9505;
+  }
+}
+
+.button {
+  border-radius: 5px;
+  font-family: 'Shantell Sans';
+  font-size: 30px;
+  background-color: rgb(194, 95, 29); /* Green */
+  border: none;
+  color: rgb(175, 134, 106);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+}
+
+.home_button {
+  background-color: rgb(218, 141, 79);
+  color: #CDD7D6;
+}
+
+.home_button:hover {
+  background-color: #eb9d36;
+  color: #FFFFFF;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
