@@ -7,7 +7,7 @@ body {
 
 @font-face {
   font-family: 'Shantell Sans';
-  src:  url('./resources/fonts/Caveat/Shantell Sans-Regular.ttf') format('truetype');
+  src:  url('./resources/fonts/Shantell Sans/Shantell Sans-Regular.ttf') format('truetype');
 }
 
 p {
@@ -20,7 +20,7 @@ a {
 }
 
 h1{
-  text-align: center;
+  text-align: right;
   font-size: 60px;
 }
 .background {
@@ -29,104 +29,9 @@ h1{
   left: 0;
   right: 0;
   bottom: 0;
-  animation: bg-animation 2s infinite;
-}
-
-@-webkit-keyframes bg-animation {
-  0% {
-    background-color: #FFC971;
-  }
-  7% {
-    background-color: #FFB627;
-  }
-  13% {
-    background-color: #FF9505;
-  }
-  20% {
-    background-color: #E2711D;
-  }
-  26% {
-    background-color: #CC5803;
-  }
-  33% {
-    background-color: #E2711D;
-  }
-  39% {
-    background-color: #FF9505;
-  }
-  46% {
-    background-color: #FFB627;
-  }
-  52% {
-    background-color: #FFC971;
-  }
-  59% {
-    background-color: #FFB627;
-  }
-  65% {
-    background-color: #FF9505;
-  }
-  72% {
-    background-color: #E2711D;
-  }
-  79% {
-    background-color: #CC5803;
-  }
-  85% {
-    background-color: #E2711D;
-  }
-  100% {
-    background-color: #FF9505;
-  }
-}
-
-@keyframes bg-animation {
-  0% {
-    background-color: #FFC971;
-  }
-  7% {
-    background-color: #FFB627;
-  }
-  13% {
-    background-color: #FF9505;
-  }
-  20% {
-    background-color: #E2711D;
-  }
-  26% {
-    background-color: #CC5803;
-  }
-  33% {
-    background-color: #E2711D;
-  }
-  39% {
-    background-color: #FF9505;
-  }
-  46% {
-    background-color: #FFB627;
-  }
-  52% {
-    background-color: #FFC971;
-  }
-  59% {
-    background-color: #FFB627;
-  }
-  65% {
-    background-color: #FF9505;
-  }
-  72% {
-    background-color: #E2711D;
-  }
-  79% {
-    background-color: #CC5803;
-  }
-  85% {
-    background-color: #E2711D;
-  }
-  100% {
-    background-color: #FF9505;
-  }
-}
+ 
+    background-color: #bbefa4;
+ 
 
 .button {
   border-radius: 5px;
