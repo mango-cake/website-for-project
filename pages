@@ -1,1 +1,14 @@
-journal.html
+<html>
+  <head>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<div id="home_button" style="position: absolute; z-index: 1; right: 50px; top: 50px">
+<button class="button home_button" onclick="window.location.href='../index.html'"> << HOME PAGE << </button>         </div>
+<div class="background">
+<body style="background-color:
+    background-color: #EABFCB;
+  <h1> THE PROBLEM </h1>
+  <p  </p1>
+    </html>
+  <p  </p1> 
+             <p  </p1>
